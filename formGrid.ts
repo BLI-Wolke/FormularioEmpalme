@@ -8,7 +8,11 @@ let dialogs = $injector.get(widgetContext.servicesMap.get('dialogs'));
 let entityRelationService = $injector.get(widgetContext.servicesMap.get('entityRelationService'));
 
 let myPageLink = widgetContext.pageLink(100);
-
+// Variables globales disponibles:
+// 
+/* function ($event, widgetContext, entityId, entityName, htmlTemplate, 
+    additionalParams, entityLabel) {
+*/
 openAssignXpmDialog();
 
 function openAssignXpmDialog() {
